@@ -1,0 +1,6 @@
+{
+  "name": "@types/db-qlik-engineapi",
+  "version": "1.0.0",
+  "description": "",
+  "types": "index.d.ts"
+}
