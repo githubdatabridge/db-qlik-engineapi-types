@@ -3117,7 +3117,7 @@ declare namespace EngineAPI {
          * Note: This method is deprecated (not recommended to use). Use GetLibraryContent method instead.
          * @returns - return a Promise Boolean or MediaList
          */
-        getMediaList(): Promise<MediaList[]>;
+        getMediaList(): Promise<IMediaList[]>;
 
         /**
          * Returns the handle of a measure.
@@ -5814,7 +5814,7 @@ declare namespace EngineAPI {
          * >> This parameter is optional.
          * @returns - true or false.
          */
-        selectListObjectContinuousRange(qPath: string, qRanges: Range[], qSoftLock?: boolean): Promise<boolean>;
+        selectListObjectContinuousRange(qPath: string, qRanges: IRange[], qSoftLock?: boolean): Promise<boolean>;
 
         /**
          * Inverts the current selections in a specific field.
